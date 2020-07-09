@@ -24,7 +24,7 @@ Universal utility for programming FPGA
 mkdir build
 cd build
 cmake -DCMAKE_INSTALL_PREFIX=/usr ..
-cmake --build . -j$(nproc)
+cmake --build .
 
 %install
 cd build
